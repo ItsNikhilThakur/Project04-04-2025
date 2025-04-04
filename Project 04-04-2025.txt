@@ -1,0 +1,29 @@
+Activity Requirements:
+HTML Requirements
+Use Microdata (Schema.org) to include structured data about the event.
+The email should have:
+A Hero Banner with a curved-image effect.
+An Event Registration Button with a fallback for Outlook (VML code).
+A Testimonial Section with images, names, and feedback.
+A Countdown Timer (JavaScript) to show time left for the event.
+
+CSS Requirements
+Implement Dark Mode support using prefers-color-scheme: dark.
+Add rounded buttons and images using border-radius.
+Use a mobile-friendly layout with viewport-based adjustments.
+
+JavaScript Requirements
+Detect Dark Mode preference dynamically and adjust styles.
+Implement a simple countdown timer that updates every second.
+Log button click events to the console for tracking.
+
+Deliverables (What Participants Must Submit)
+Participants must provide:
+✅ index.html – HTML file with structured data and responsive design.
+✅ styles.css – CSS file implementing dark mode, responsive layout, and curved elements.
+✅ script.js – JavaScript file handling countdown and interaction events.
+Hints for Participants
+Use itemprop attributes to add Microdata Schema.
+For Outlook compatibility, use VML buttons inside <!--[if mso]> ... <![endif]-->.
+Add @media (prefers-color-scheme: dark) for dark mode styling.
+Use setInterval() in JavaScript to create a countdown timer.
